@@ -204,6 +204,9 @@ State.propTypes = {
       estado: PropTypes.string.isRequired,
     }),
   }).isRequired,
+  history: PropTypes.shape({
+    goBack: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export { State };
