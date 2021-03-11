@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Outer = styled.div`
   flex-direction: column;
@@ -15,5 +15,4 @@ export const OuterRoutes = styled.div`
   width: 100%;
   max-width: 90vw;
   margin: 0px auto;
-  padding: 40px;
 `;
