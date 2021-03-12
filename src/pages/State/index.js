@@ -64,7 +64,9 @@ function State({ match, history }) {
         );
       }
     }
-    getData();
+    setTimeout(() => {
+      getData();
+    }, 3000);
   }, []);
 
   React.useEffect(() => {
