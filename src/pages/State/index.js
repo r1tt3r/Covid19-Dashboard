@@ -103,7 +103,7 @@ function State({ match, history }) {
     }
     setTimeout(() => {
       getData();
-    }, 3000);
+    }, 20000);
   }, []);
 
   React.useEffect(() => {
